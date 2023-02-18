@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top nav styling  */
+.top_nav ul{
+    background-color: #000000a4;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    list-style: none;
+    margin-top: 45px;
+  }
+.top_nav ul li {
+    padding: 15px;
+}
+.top_nav a{
+    text-decoration: none;
+    color: white;
+}
+.top_nav a:hover{
+    background-color: greenyellow;
+}
+/* top nav styling end  */
+
+/* bottom nav start  */
+.bottom_nav{
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    margin: 25px 0px 25px 0px;
+   }
+.bottom_navSecondDiv ul li{
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+     }
+     .bottom_navSecondDiv a{
+        text-decoration: none;
+        color: black;
+     }
+
+    /* botton nav styling end  */
+    
+    /* main first part styling  */
+    .first_part{
+        background-color: #000000a4;
+        text-align: center;
+        padding: 50px;
+        text-transform: uppercase;
+        font-size: 25px;
+
+    }
+    .first_part h6{
+        color: #00000063;
+        font-weight: bold;
+    }
+    .first_part h1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+          }
+    .first_part button {
+        padding: 8px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 20px;
+        font-weight: bold;
+    }
+    .first_part button:hover{
+        background-color: greenyellow;
+    }
+
+    /* main second part styling  */
+    .second_part ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 35px 0px 35px 0px;
+        padding: 25px;
+    }
+    .second_part ul li {
+        list-style: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 20px;  
+    }
+    .second_part a {
+        text-decoration: none;
+        color: black;
+    }
+    .second_part p {
+        font-size: small;
+        color: rgba(0, 0, 0, 0.452);
+    }
+/* .main second part end  */
+
+/* main third part start  */
+.third_part{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 100px 40px;
+    align-items: center;
+    background-color: #000000a4;
+    color: white;
+}
+.third_part a {
+    text-decoration: none;
+    color: white;
+}
