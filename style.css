@@ -45,7 +45,7 @@
 
     /* botton nav styling end  */
     
-    /* main first part styling  */
+    /* main 1st part styling start  */
     .first_part{
         background-color: #000000a4;
         text-align: center;
@@ -72,8 +72,9 @@
     .first_part button:hover{
         background-color: greenyellow;
     }
+    /* main 1st part styling end  */
 
-    /* main second part styling  */
+    /* main 2nd part styling start  */
     .second_part ul{
         display: flex;
         flex-direction: row;
@@ -82,6 +83,8 @@
         padding: 25px;
     }
     .second_part ul li {
+        display: flex;
+        flex-direction: column;
         list-style: none;
         font-weight: bold;
         text-transform: uppercase;
@@ -92,12 +95,16 @@
         color: black;
     }
     .second_part p {
+        margin-top: 10px;
         font-size: small;
         color: rgba(0, 0, 0, 0.452);
     }
-/* .main second part end  */
+    .second_part img {
+    height: 90px;
+        }
+/* .main 2nd part styling end  */
 
-/* main third part start  */
+/* main 3rd part start  */
 .third_part{
     display: flex;
     justify-content: space-between;
@@ -110,3 +117,4 @@
     text-decoration: none;
     color: white;
 }
+/* main 3rd part styling end  */
