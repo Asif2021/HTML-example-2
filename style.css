@@ -24,6 +24,7 @@
 .top_nav a{
     text-decoration: none;
     color: white;
+    padding-left: 13px;
 }
 .top_nav a:hover{
     background-color: greenyellow;
@@ -40,9 +41,14 @@
    .bottom_navFirstDiv{
     font-family: cursive;
    }
+   .bottom_navSecondDiv ul{
+    display: flex;
+    
+   }
 .bottom_navSecondDiv ul li{
     list-style: none;
     font-weight: bold;
+    padding: 10px;
     text-transform: uppercase;
     font-size: 20px;
      }
@@ -50,17 +56,16 @@
         text-decoration: none;
         color: black;
      }
-.bottom_navThirdDiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
+.bottom_navThirdDiv img{
+      padding: 10px;
 }
     /* botton nav styling end  */
     
     /* main section 1st part styling start  */
     .first_part{
-        background-color: #000000a4;
+        background-image: url(images/backgroundimg.jpg);
         text-align: center;
+        background-size: cover;
         padding: 50px;
         text-transform: uppercase;
         font-size: 25px;
@@ -95,8 +100,7 @@
         padding: 25px;
     }
     .second_part ul li {
-        display: flex;
-        flex-direction: column;
+        display: grid;
         list-style: none;
         font-weight: bold;
         text-transform: uppercase;
