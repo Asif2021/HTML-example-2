@@ -15,7 +15,12 @@
   }
 .top_nav ul li {
     padding: 15px;
+    display: flex;
+    align-items: center;
 }
+.top_nav img {
+    height: 22px;
+    }
 .top_nav a{
     text-decoration: none;
     color: white;
@@ -32,6 +37,9 @@
     justify-items: center;
     margin: 25px 0px 25px 0px;
    }
+   .bottom_navFirstDiv{
+    font-family: cursive;
+   }
 .bottom_navSecondDiv ul li{
     list-style: none;
     font-weight: bold;
@@ -42,10 +50,14 @@
         text-decoration: none;
         color: black;
      }
-
+.bottom_navThirdDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
     /* botton nav styling end  */
     
-    /* main 1st part styling start  */
+    /* main section 1st part styling start  */
     .first_part{
         background-color: #000000a4;
         text-align: center;
@@ -72,9 +84,9 @@
     .first_part button:hover{
         background-color: greenyellow;
     }
-    /* main 1st part styling end  */
+    /* main section 1st part styling end  */
 
-    /* main 2nd part styling start  */
+    /* main section 2nd part styling start  */
     .second_part ul{
         display: flex;
         flex-direction: row;
@@ -101,10 +113,10 @@
     }
     .second_part img {
     height: 50px;
-        }
-/* .main 2nd part styling end  */
+       }
+/* .main section 2nd part styling end  */
 
-/* main 3rd part start  */
+/* main section 3rd part start  */
 .third_part{
     display: flex;
     justify-content: space-between;
@@ -117,4 +129,4 @@
     text-decoration: none;
     color: white;
 }
-/* main 3rd part styling end  */
+/* main section 3rd part styling end  */
