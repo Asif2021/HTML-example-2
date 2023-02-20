@@ -100,7 +100,7 @@
         color: rgba(0, 0, 0, 0.452);
     }
     .second_part img {
-    height: 90px;
+    height: 50px;
         }
 /* .main 2nd part styling end  */
 
@@ -108,7 +108,7 @@
 .third_part{
     display: flex;
     justify-content: space-between;
-    padding: 0px 40px 100px 40px;
+    padding: 0px 40px 54px 40px;
     align-items: center;
     background-color: #000000a4;
     color: white;
